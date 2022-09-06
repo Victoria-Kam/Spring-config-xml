@@ -12,7 +12,6 @@ public class Print {
     public Print(IBuyInterface iBuyInterface) {
         this.iBuyInterface = iBuyInterface;
     }
-
     public void printTask(){
         System.out.println(iBuyInterface.buySomething());
     }
