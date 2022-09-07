@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 public class Print {
 
     private final IBuyInterface iBuyInterface;
+
     @Autowired
     public Print(IBuyInterface iBuyInterface) {
         this.iBuyInterface = iBuyInterface;
